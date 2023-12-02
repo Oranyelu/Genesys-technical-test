@@ -1,0 +1,54 @@
+body{
+    min-height: 100vh;
+    margin: 0px;
+    border: 0px;
+    padding: 100px;
+    background-image: linear-gradient(to top right,orange, rgb(216, 7, 0));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    
+
+
+}
+.logs{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    height: 408px;
+    min-width: 280px;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+button{
+    background-color: white;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    border-color: black;
+    border-radius: 20px;
+    height: 35px;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+p{
+    font-weight: 200;
+    font-size: 0.6rem;
+}
